@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+</head>
+<body  ng-controller="HomeController">
+
+<br>
+<br>
+<br>
+
+<div class="jumbotron">
+<div class="container">
+             <div class="col-md-offset-4 col-md-4">
+     		 <div class="card">
+     			<img src="{{image}}" alt="NimeshVerma" style="width:100%">
+  				<div class="container">
+      				<h3><b>{{username}}</b></h3>
+    				<p class="title">{{bio}}</p>
+    				<p class="glyphicon glyphicon-envelope"> {{email}}</p>
+    				</div>
+   					<p><button onclick="window.location='#/login';">Logout</button></p>
+  				</div>			        
+        	</div>
+	  </div>
+</div>
+</body>
+</html>
+
+
+
+
